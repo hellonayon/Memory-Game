@@ -8,7 +8,6 @@ body{
     background-color: rgb(244, 188, 255);
     font-family: 'Fredoka One', cursive;
     color: rgb(231, 105, 37);
-    padding-left: 5%;
 } 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
