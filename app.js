@@ -1,3 +1,4 @@
+const clickSound = new Audio("images/clickSound.wav")
 const cardArray = [
     {
         name: 'fries',
@@ -108,6 +109,7 @@ function flipCard() {
    const cardId = this.getAttribute('data-id')
     cardChosen.push(cardArray[cardId].name)
     cardChosenIds.push(cardId)
+    clickSound.play()
     console.log(cardChosen)
     console.log(cardChosenIds)
     this.setAttribute('src', cardArray[cardId].img)
