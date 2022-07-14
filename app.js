@@ -112,7 +112,7 @@ function flipCard() {
     console.log(cardChosenIds)
     this.setAttribute('src', cardArray[cardId].img)
     if(cardChosen.length === 2) {
-        setTimeout( checkMatch, 500)
+        setTimeout( checkMatch, 1000)
     }
 
 }
