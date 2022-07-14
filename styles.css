@@ -4,6 +4,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.body{
-    background-color: aqua;
+body{
+    background-color: rgb(244, 188, 255);
+    font-family: 'Fredoka One', cursive;
 } 

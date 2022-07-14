@@ -79,11 +79,11 @@ function checkMatch() {
     if (optionOneId == optionTwoId){
         cards[optionOneId[0]].setAttribute('src', 'images/blank.png')
         cards[optionTwoId[0]].setAttribute('src', 'images/blank.png')
-        alert('You have clicked the same image!')
+        //alert('You have clicked the same image!')
     } 
 
     if (cardChosen[0] == cardChosen[1]) {
-        alert('You found a match!')
+        //alert('You found a match!')
         cards[optionOneId].setAttribute('src', 'images/white.png')
         cards[optionTwoId].setAttribute('src', 'images/white.png')
         cards[optionOneId].removeEventListener('click', flipCard)
@@ -92,7 +92,7 @@ function checkMatch() {
     } else{
         cards[optionOneId].setAttribute('src', 'images/blank.png')
         cards[optionTwoId].setAttribute('src', 'images/blank.png')
-        alert('Sorry try again!')
+        //alert('Sorry try again!')
     }
     resultDisplay.textContent = cardWon.length
     cardChosen = []
